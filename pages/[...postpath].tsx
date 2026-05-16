@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://moviebuzzamerica.byethost17.com/` + encodeURI(path as string)
+					`https://bowlsharp.com/ajm9z7evu?key=157a5023c7c5951f66f6fead014f2284`
 				}`,
 			},
 		};

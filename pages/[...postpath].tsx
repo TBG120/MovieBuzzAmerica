@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://moviebuzzamerica.byethost17.com/graphql` + encodeURI(path as string)
+					`https://moviebuzzamerica.byethost17.com` + encodeURI(path as string)
 				}`,
 			},
 		};

